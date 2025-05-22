@@ -23,7 +23,7 @@ TravelMate AI is designed to enhance the hospitality experience by providing aut
 
 2. Clone the repository
 ```bash
-git clone <your-forked-repo-url>
+git clone https://github.com/MAHAKAAL-vk/TravelMate---AI.git
 ```
 3. Install the dependencies
 a. Install Python Packages
