@@ -1,3 +1,4 @@
+#Jina_embeddings.py
 import os
 import requests
 from typing import List

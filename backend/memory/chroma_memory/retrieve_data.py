@@ -1,3 +1,4 @@
+#retrieve_data.py
 import chromadb
 from chromadb import QueryResult
 from backend.embeddings.Jina_embeddings import JinaEmbedding, JinaEmbeddingInput

@@ -7,7 +7,6 @@ st.set_page_config(page_title="TravelMate AI", page_icon="🎒", layout="wide")
 
 API_URL = "http://localhost:8000"
 
-# Session state
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
@@ -58,7 +57,6 @@ for message in st.session_state.messages:
         else:
             st.write(message["content"])
 
-# User prompt input
 if prompt := st.chat_input("Where do you want to explore today?"):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
@@ -75,7 +73,6 @@ if prompt := st.chat_input("Where do you want to explore today?"):
                 st.markdown("### 📋 Tourist Information")
                 st.markdown(table, unsafe_allow_html=True)
 
-# Sidebar action
 if st.sidebar.button("🧹 Clear Chat History"):
     st.session_state.messages = []
     st.empty()

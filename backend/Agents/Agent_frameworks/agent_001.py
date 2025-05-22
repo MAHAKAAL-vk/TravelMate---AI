@@ -1,3 +1,4 @@
+# agent_001.py
 import os
 import json
 import requests
@@ -46,7 +47,7 @@ The tools which you have access to are:
 
 4. finishtool: This tool should be called when you have found the information you need.
    parameters:
-   - summary: The summary of the information you have found
+   - summary: The summary of the information you have found and add factual context in summary part from the data.
 
 Instructions:
    -Always use the finishtool to finish the task.
