@@ -44,19 +44,7 @@ windows
 pip install -r requirements.txt
 ```
 
-b. Set Up CrewAI
-```bash
-# Navigate to CrewAI directory
-cd backend/agents/stay_ai_crew
-
-# copy the env_template.txt file to .env
-cp env_template.txt .env
-
-# Run CrewAI setup
-crewai run
-```
-
-c. Configure Environment Variables
+b. Configure Environment Variables
 Copy the env_template.txt file to .env and replace the place-your-key with your actual keys
 ```bash
 # Copy environment template
