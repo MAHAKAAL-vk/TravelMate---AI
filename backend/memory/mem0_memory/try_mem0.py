@@ -53,7 +53,8 @@ def extract_relevant_memories(query, user_id) -> list[str]:
 
     memories = [m.get("memory", "") for m in raw_results if "memory" in m]
     if not memories:
-        print("⚠️ No memories extracted from mem0.search() results.")
+        print("⚠️ There are no such relevant memories.")
+        
     return memories
 
 
