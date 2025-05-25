@@ -47,7 +47,7 @@ The tools which you have access to are:
 
 4. finishtool: This tool should be called when you have found the information you need.
    parameters:
-   - summary: The summary of the information you have found
+   - summary: The summary of the information you have found; Summary should be concise and to the point. no table data should be included in the summary; It should provide a clear overview of the key findings and insights; it should not contain any unnecessary details or fluff; It should be easy to read and understand; It should be written in a professional tone; It should be free of grammatical errors and typos.
 
 Always use the finishtool to finish the task.
 Respond strictly in JSON like:
